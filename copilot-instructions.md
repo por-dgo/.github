@@ -4,8 +4,9 @@ These instructions apply to all repositories in the **por-dgo** organization unl
 
 ## Organization Context
 
-- **Organization**: Teledyne DGO (Digital Government & Operations), a unit of Teledyne Marine
-- **Site**: Portsmouth, NH
+- **Organization**: Teledyne DGO (named for founder Donald G. O'Brien), a Teledyne Marine company
+- **Site**: Portsmouth, NH (headquarters: 162 Corporate Drive, Portsmouth, NH 03801)
+- **Specialty**: High-reliability electrical interconnect systems — glass-to-metal sealed connectors, penetrators, cable assemblies, and feedthrough systems for extreme environments (subsea, nuclear, defense, aerospace)
 - **Primary system**: IFS Cloud 24R2 (enterprise ERP by IFS AB)
 - **Base URL**: `https://us3-vpifs-mid01.tdy.teledyne.com/main/ifsapplications`
 

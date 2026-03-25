@@ -6,7 +6,7 @@
 
 # Teledyne DGO — Portsmouth
 
-Internal tools and utilities for the **Digital Government & Operations (DGO)** unit of [Teledyne Marine](https://www.teledynemarine.com/), Portsmouth site.
+Internal tools and utilities developed at [Teledyne DGO](https://www.teledynemarine.com/brands/dgo), a [Teledyne Marine](https://www.teledynemarine.com/) company headquartered in Portsmouth, NH. Teledyne DGO (named for founder Donald G. O'Brien) specializes in high-reliability electrical interconnect systems — glass-to-metal sealed connectors, penetrators, and feedthrough systems for extreme environments.
 
 ## Projects
 
@@ -28,4 +28,4 @@ These tools provide focused, fast access to IFS Cloud manufacturing data — sho
 
 ---
 
-<sub>Teledyne DGO · Fiber Optics · Portsmouth, NH</sub>
+<sub>Teledyne DGO · Portsmouth, NH · [teledynemarine.com/brands/dgo](https://www.teledynemarine.com/brands/dgo)</sub>
