@@ -22,16 +22,16 @@ git checkout -b {issue#}-{short-description}
 ```
 
 Examples:
-- `42-add-excel-export-filter`
-- `57-fix-mrb-sparkline`
-- `13-update-readme`
+- `12-add-csv-export`
+- `34-fix-login-timeout`
+- `7-update-readme`
 
 ## Pull Requests
 
 Open a PR when work is ready. The PR template will prompt you to:
 
 1. Describe **what** changed
-2. Link the issue with `Closes #42` (auto-closes on merge)
+2. Link the issue with `Closes #12` (auto-closes on merge)
 3. Confirm testing
 
 Self-review your own diff before merging — the GitHub diff view often reveals things your editor doesn't.
@@ -52,17 +52,17 @@ Releases use **git tags** as the single source of truth for version numbers.
 ```powershell
 # 1. Update CHANGELOG.md
 # 2. Commit
-git commit -m "v0.18.0: description of what changed"
+git commit -m "v1.2.0: description of what changed"
 
 # 3. Tag
-git tag v0.18.0
+git tag v1.2.0
 
 # 4. Push
 git push && git push --tags
 
 # 5. Build and create GitHub Release
 python build.py
-gh release create v0.18.0 dist/*.zip --title "v0.18.0" --notes "Description"
+gh release create v1.2.0 dist/*.zip --title "v1.2.0" --notes "Description"
 ```
 
 ## Labels
@@ -91,7 +91,7 @@ Standard labels used across all repos:
 Freeform but descriptive — summarize *what* changed and *why*. Reference issue numbers where relevant.
 
 ```
-Add date filter to Excel export (#42)
-Fix pagination on MRB cases query
-v0.18.0: quality tab sparklines + defect pareto
+Add CSV export option (#12)
+Fix timeout on large queries
+v1.2.0: dashboard filtering + performance improvements
 ```

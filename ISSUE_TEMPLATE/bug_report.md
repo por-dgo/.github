@@ -26,6 +26,6 @@ What actually happens.
 
 ## Environment
 
-- **App version**: (e.g. v0.16.0 — check the footer or About)
+- **App version**: (e.g. v1.2.0 — check the footer or About)
 - **Windows version**: (e.g. Windows 11 23H2)
 - **Source or .exe**: 
