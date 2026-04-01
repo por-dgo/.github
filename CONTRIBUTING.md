@@ -34,6 +34,8 @@ Open a PR when work is ready. The PR template will prompt you to:
 2. Link the issue with `Closes #12` (auto-closes on merge)
 3. Confirm testing
 
+All repos use **squash merge** — your PR commits get combined into a single clean commit on `main`. Feature branches are **automatically deleted** after merge.
+
 Self-review your own diff before merging — the GitHub diff view often reveals things your editor doesn't.
 
 ## Sprint Rhythm

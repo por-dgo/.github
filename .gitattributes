@@ -1,0 +1,39 @@
+# Auto-detect text files and ensure consistent line endings
+* text=auto eol=crlf
+
+# Python
+*.py text eol=crlf
+*.pyw text eol=crlf
+
+# Web
+*.html text eol=crlf
+*.css text eol=crlf
+*.js text eol=crlf
+*.json text eol=crlf
+
+# Config / Docs
+*.md text eol=crlf
+*.yml text eol=crlf
+*.yaml text eol=crlf
+*.toml text eol=crlf
+*.cfg text eol=crlf
+*.ini text eol=crlf
+*.txt text eol=crlf
+*.spec text eol=crlf
+
+# Shell
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh text eol=lf
+
+# Binary — don't diff or merge
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.zip binary
+*.gz binary
+*.whl binary
