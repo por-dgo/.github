@@ -22,7 +22,9 @@ A repository is a project workspace that contains source code, documentation, an
 
 Repository contents are not publicly listed in order to protect proprietary and sensitive internal information.
 
-Teledyne DGO employees who need access for approved work may request organization and repository access through the established internal IT/software access process. Access is granted based on business need and approval.
+Teledyne DGO employees who need access for approved work may submit a request using the link below. Access is granted based on business need and manager approval.
+
+**[Request Organization Access →](https://github.com/por-dgo/.github/issues/new?template=org_access_request.yml)**
 
 For general company information, visit Teledyne DGO at:
 [teledynemarine.com/brands/dgo](https://www.teledynemarine.com/brands/dgo)

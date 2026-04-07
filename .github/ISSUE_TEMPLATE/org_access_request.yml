@@ -1,0 +1,75 @@
+name: Organization Access Request
+description: Request access to the Teledyne DGO GitHub organization.
+title: "[Access Request] "
+labels: ["access-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to request membership in the **Teledyne DGO** GitHub organization.
+
+        Access is granted based on business need and manager approval. Submitting this form does not guarantee access. An organization administrator will follow up.
+
+        > **Note**: This issue and your responses are publicly visible. Do not include passwords, badge numbers, employee IDs, or any sensitive personal or business information.
+
+  - type: input
+    id: full_name
+    attributes:
+      label: Full Name
+      placeholder: Jon Smith
+    validations:
+      required: true
+
+  - type: input
+    id: github_username
+    attributes:
+      label: GitHub Username
+      description: Your GitHub.com username (not your email).
+      placeholder: jsmith-dgo
+    validations:
+      required: true
+
+  - type: input
+    id: manager_name
+    attributes:
+      label: Manager Name
+      description: Your direct manager's name. They may be contacted for approval.
+      placeholder: Jane Doe
+    validations:
+      required: true
+
+  - type: dropdown
+    id: business_justification
+    attributes:
+      label: Business Justification
+      description: Select the primary business reason for this access request.
+      options:
+        - Engineering support for manufacturing operations
+        - Quality or compliance workflow support
+        - IT/software administration responsibilities
+        - Reporting/analytics support for operations
+        - Cross-functional collaboration on approved internal tooling
+        - Other approved business need
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context (Optional)
+      description: If you selected "Other approved business need," provide a short, non-sensitive explanation.
+      placeholder: Brief non-sensitive context for approvers.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: acknowledgments
+    attributes:
+      label: Acknowledgments
+      options:
+        - label: I am a current Teledyne employee and my request is for business purposes.
+          required: true
+        - label: I understand this is a public issue and have not included sensitive information above.
+          required: true
+        - label: I understand access is subject to review and approval and is not guaranteed.
+          required: true
