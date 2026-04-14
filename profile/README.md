@@ -6,13 +6,7 @@
 
 # Teledyne DGO — Portsmouth
 
-This GitHub organization supports Teledyne DGO internal engineering and operations software.
-
-Most content in this organization is intentionally restricted.
-
-## Public Repositories
-
-- [Chef Domaille](https://github.com/por-dgo/chef-domaille/releases/latest) — Offline recipe manager for Domaille fiber optic polishing machines. Create, edit, validate, and export polishing recipes to USB.
+This GitHub organization supports Teledyne DGO engineering and operations software.
 
 ## What GitHub Is
 
@@ -24,9 +18,7 @@ A repository is a project workspace that contains source code, documentation, an
 
 ## Access and Visibility
 
-Most repository contents are not publicly listed in order to protect proprietary and sensitive internal information.
-
-Teledyne DGO employees who need access for approved work may submit a request using the link below. Access is granted based on business need and manager approval.
+Teledyne DGO employees who need access for approved work may submit a request using the link below. Access is granted based on business need and admin approval.
 
 **[Request Organization Access →](https://github.com/por-dgo/.github/issues/new?template=org_access_request.yml)**
 
