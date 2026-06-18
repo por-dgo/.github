@@ -22,7 +22,4 @@ Teledyne DGO employees who need access for approved work may submit a request us
 
 **[Request Organization Access →](https://github.com/por-dgo/.github/issues/new?template=org_access_request.yml)**
 
-For general company information, visit Teledyne DGO at:
-[teledynemarine.com/brands/dgo](https://www.teledynemarine.com/brands/dgo)
-
 ---
